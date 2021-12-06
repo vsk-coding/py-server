@@ -29,8 +29,9 @@ metadata:
     app: py-service
 spec:
   ports:
-  - port: 8765
+  - port: 80
     protocol: TCP
+    targetPort: 8765
   selector:
     app: py-server
   type: LoadBalancer
