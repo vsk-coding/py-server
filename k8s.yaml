@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: py-server
-        image: vishnusk/py-server
+        image: vishnusk/py-test
         imagePullPolicy: Always
         ports:
         - containerPort: 8765
